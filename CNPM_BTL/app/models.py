@@ -237,14 +237,14 @@ if __name__ == '__main__':
         p6 = Product(name='Có Hai Con Mèo Ngồi Bên Cửa Sổ', price=60000, category_id=3,
                      image='https://res.cloudinary.com/lenvo1202/image/upload/v1704731603/2-con-meo_bbmg8w.jpg',
                      active=1,author_id=6)
-        p7 = Product(name='Samsung Z flip 5', price=22000000, category_id=1,
-                     image='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
-        p8 = Product(name='iPad Promax', price=35000000, category_id=2,
-                     image='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
-        p9 = Product(name='Galaxy Tab S7', price=24000000, category_id=2,
-                     image='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
-        p10 = Product(name='Note 20', price=20000000, category_id=1,
-                      image='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
+        # p7 = Product(name='Samsung Z flip 5', price=22000000, category_id=1,
+        #              image='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
+        # p8 = Product(name='iPad Promax', price=35000000, category_id=2,
+        #              image='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
+        # p9 = Product(name='Galaxy Tab S7', price=24000000, category_id=2,
+        #              image='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
+        # p10 = Product(name='Note 20', price=20000000, category_id=1,
+        #               image='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
 
         db.session.add_all([p1,p2,p3,p4,p5])
         # , p6, p7, p8, p9, p10])
